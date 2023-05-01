@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+    background-image: url(light-blue.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+option {
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        font-size: 0.8rem;
+    }
+}
